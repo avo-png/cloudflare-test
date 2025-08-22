@@ -1,0 +1,186 @@
+body {
+	font-family: Source Sans Pro, sans-serif;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.header-a .main-logo {
+	float: left;
+	padding: 15px;
+}
+
+.header-a .main-logo img {
+	max-height: 2.9rem;
+}
+
+.main-login {
+	float: left;
+	margin-top: 13px;
+	padding: 15px;
+}
+
+.header-a .main-login a {
+	font-weight: 600;
+	color: #144858;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.main-display {
+	background-image: url(https://naturecounter.world/pluginfile.php/1/local_mb2slides/attachment/1/banner_image_desktop.png);
+	position: relative;
+	overflow: hidden;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.cover-text {
+	color: white;
+	font-size: 30px;
+	text-wrap: auto;
+	width: 40%;
+	padding: 20px;
+	text-align: end;
+	float: right;
+	margin-top: 15vh;
+}
+
+.youtube-video {
+	padding: 20px;
+}
+
+.youtube-video h2 {
+	text-align: center;
+}
+
+.youtube-video iframe {
+	width: 100%;
+	height: 500px;
+}
+
+section.articles {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+section.articles .container-fluid {
+	width: 90%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: unset;
+}
+
+.col-md-6 {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.theme-boxes {
+	padding: 15px;
+}
+
+.article-1,
+.article-2,
+.article-3,
+.article-4 {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	flex: 0 0 50%;
+	color: white;
+}
+
+.article-1 {
+	background-color: #f3850c;
+	padding: 15px;
+	margin-right: 15px;
+}
+
+.article-2 {
+	background-color: #74a900;
+}
+
+.article-3 {
+	background-color: #144858;
+	padding: 15px;
+	margin-right: 15px;
+}
+
+.article-4 {
+	background-color: #004d9b;
+}
+
+.articles h2 {
+	margin-left: 3vw;
+}
+
+.text-box-logo img {
+	max-width: 100%;
+	min-width: 12px;
+	height: auto;
+	width: 75px;
+	border-radius: 15px;
+}
+
+.read-more-button {
+	background-color: black;
+	width: fit-content;
+	padding: 10px;
+	border-radius: 10%;
+	color: #fff;
+	background-color: #435764;
+	border-color: #394a55;
+	display: inline-block;
+	border-width: 0;
+	text-decoration: none !important;
+	outline: 0.2rem solid #fff0;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	box-shadow: none !important;
+	padding: 0.27rem 0.6rem;
+	font-size: 0.9rem;
+	line-height: 1.485rem;
+	border-radius: 0.2rem;
+}
+
+footer {
+	background-color: #d65e1d;
+	color: white;
+}
+
+footer .row {
+	justify-content: space-between;
+	padding: 15px;
+}
+
+footer .footer-box {
+	padding: 20px;
+}
